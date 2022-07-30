@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 30px);
+    grid-template-rows: repeat(5, 30px);
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    border: solid black 1px;
+}
+
+.box:hover {
+    background-color: gray;
+}
+
+.box.on {
+    background-color: #222222;
+}
